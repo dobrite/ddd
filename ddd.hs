@@ -1,4 +1,9 @@
 import System.Random
+import qualified Data.Map as Map
+
+spaces = Map.fromList [
+  (0, )
+]
 
 main = do
   g <- getStdGen
